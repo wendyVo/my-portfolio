@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Lora&family=Playfair+Display&family=Heebo&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Heebo', sans-serif;
+}
+
+.offset::before {
+    display: block;
+    content: "";
+    height: 5rem;
+}
+
+.navbar {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    background: #8f246b !important;
+    padding: 15px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff8000;
+}
+
+.imgBg {
+    width: 100%;
+}
+
+
+/* About Me */
+
+#about-page .btn {
+    width: 40%;
+    padding: 20px 15px;
+    background: #8f246b;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about-page .btn a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#about-page .btn:hover {
+    background: #D2691E;
+}
+
+
+/* Portfolio */
+
+
+/* Card buttons */
+
+#portfolio-page .btn {
+    background: #8f246b;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#portfolio-page .btn:hover {
+    background: #D2691E;
+}
+
+
+/* portfolio buttons */
+
+#portfolio-page .button {
+    width: 40%;
+    padding: 20px 15px;
+    background: #8f246b;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#portfolio-page .button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolio-page .button:hover {
+    background: #D2691E;
+}
+
+
+/* Get in touch section */
+
+#getInTouch-page {
+    color: #fff;
+    text-align: center;
+    padding: 4em 0;
+    background: #ff738e;
+}
+
+@media screen and (max-width: 1024px) {
+    #contact {
+        padding: 5em 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #contact {
+        padding: 2em 0;
+    }
+}
+
+#getInTouch-page h2 {
+    font-size: 2.5em;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 640px) {
+    #getInTouch-page h2 {
+        font-size: 1.5em;
+    }
+}
+
+#getInTouch-page p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding: 0 20%;
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+    #getInTouch-page p {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #getInTouch-page p {
+        padding: 0;
+        font-size: 1em;
+    }
+}
+
+#send-mail {
+    width: 20%;
+    /* position: relative;
+    text-indent: 30px; */
+    margin: 1em auto 1em auto;
+    color: #fff;
+    border-color: #fff;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+    #getInTouch-page #send-mail {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #getInTouch-page #send-mail {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #getInTouch-page #send-mail {
+        width: 80%;
+        margin-bottom: 3em;
+    }
+}
+
+#getInTouch-page #send-mail:hover {
+    background: #fff;
+    color: #d24d57;
+}
+
+
+/* Social Icons */
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.social-network a.icoGitHub:hover {
+    background-color: black;
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+}
+
+.social-network a.icoPhone:hover {
+    background-color: #BD3518;
+}
+
+.social-network a.icoVimeo:hover {
+    background-color: #0590B8;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.social-network a.icoRss:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoVimeo:hover i,
+.social-network a.icoLinkedin:hover i {
+    color: #fff;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #D3D3D3;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+
+/* Footer */
+
+#footer-page {
+    padding: 1rem 0;
+    color: #999;
+    text-align: center;
+    background-color: black;
+    border-top: .05rem solid #e5e5e5;
+}
+
+#footer-page p:last-child {
+    margin-bottom: 0;
+}
