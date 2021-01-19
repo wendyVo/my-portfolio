@@ -13,7 +13,7 @@ In the contact section, there will be a form for the user to fill out and send t
 
 ### Navigation Main Page
 
-![main-page](.Assets/screenshots/navigation.PNG)
+![main-page](Assets/screenshots/navigation.PNG)
 
 ### About Me
 
