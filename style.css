@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Lora&family=Playfair+Display&family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora&family=Playfair+Display&family=Heebo&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -99,6 +99,50 @@ body {
 
 #portfolio-page .button:hover {
     background: #D2691E;
+}
+
+
+/* Portfolio Hove Overlay */
+
+.overlay {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    background-color: rgb(255 0 212 / 41%);
+    height: 85%;
+    width: 92%;
+    opacity: 0;
+    transition: .75s ease;
+}
+
+.ctr {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 27%;
+}
+
+.imgHov:hover .overlay {
+    opacity: 1;
+}
+
+.modal-p {
+    font-family: 'Lora', sans-serif;
+    padding-top: 1em;
+    font-size: 1.2em;
+}
+
+.modal-header {
+    background-color: #8f246b;
+    color: white
+}
+
+.modal-footer .btn a {
+    color: white;
+    text-decoration: none;
 }
 
 

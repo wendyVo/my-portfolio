@@ -61,10 +61,10 @@
             <div class="col-lg-6 col-md-6 col-12">
                 <h2>Something about myself</h2>
                 <hr>
-                <p>I am originally from Viet Nam and I have been in Australia for 7 years. Prior to my interest in coding, I was working different roles in hospitality, aged care and retail. After completing a Diploma of IT at RMIT in 2018, I gained a passion
+                <p style="font-size: 1.2em;">I am originally from Viet Nam and I have been in Australia for 7 years. Prior to my interest in coding, I was working different roles in hospitality, aged care and retail. After completing a Diploma of IT at RMIT in 2018, I gained a passion
                     to become a Web Developer. I am currently working full-time in the morning in which I complete my online studies during the night. It is a constant challenge to find a balance however I am certain my hard work and dedication will help
                     in achieving my goals in the future.</p>
-                <button class="btn"><a href="#">Know more</a></button>
+                <button class="btn"><a href="Assets\resume\resume.html" target="_blank">View my Resume</a></button>
             </div>
         </div>
     </div>
@@ -77,55 +77,82 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-12 pb-5">
-                <div class="card">
-                    <img class="card-img-top" src="Assets\Pictures\Project01.png" alt="Project01">
-                    <div class="card-body">
-                        <h5 class="card-title">Project01</h5>
-                        <p class="card-text">In this group project, we built a web application from scratch by integrating data received from multiple server-side API requests. Working as a team, we have learned agile development methodologies and implement feature and bug
-                            fixes using git branch worklflow and pull requests. This is a multifunctional application that will help you organize your trip. This application will help you search flight and exchange the latest currency rates.</p>
-                        <a href="https://phamthomas12.github.io/Project-1/" class="btn">Project Link</a>
-                    </div>
-                </div>
+            <div class="col-lg-4 col-md-6 col-12 pb-5 imgHov" data-toggle="modal" data-target="#m1">
+                <img src="Assets\Pictures\Project01.png" class="img-fluid" alt="project01">
+                <div class="overlay ctr"><button type="button" class="btn btn-outline-light">Explore More</button></div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12 pb-5">
-                <div class="card">
-                    <img class="card-img-top" src="Assets\Pictures\wendy-autumn.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project01</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn">Live Preview</a>
-                    </div>
-                </div>
+            <div class="col-lg-4 col-md-6 col-12 pb-5 imgHov" data-toggle="modal" data-target="#m2">
+                <img src="Assets\Pictures\weather-dashboard.png" class="img-fluid" alt="weather dashboard">
+                <div class="overlay ctr"><button type="button" class="btn btn-outline-light">Explore More</button></div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12 pb-5">
-                <div class="card">
-                    <img class="card-img-top" src="Assets\Pictures\wendy-autumn.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project01</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn">Live Preview</a>
-                    </div>
-                </div>
+            <div class="col-lg-4 col-md-6 col-12 pb-5 imgHov" data-toggle="modal" data-target="#m3">
+                <img src="Assets\Pictures\scheduler-p.png" class="img-fluid" alt="word day scheduler">
+                <div class="overlay ctr"><button type="button" class="btn btn-outline-light">Explore More</button></div>
             </div>
-
-            <div class="col-lg-4 col-md-6 col-12 pb-5">
-                <div class="card">
-                    <img class="card-img-top" src="Assets\Pictures\wendy-autumn.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project01</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn">Live Preview</a>
+        </div>
+        <!-- <button class="row button mx-auto mb-5">
+            <a href="#">Know more</a>
+        </button> -->
+        <!-- Portfolio Modal -->
+        <!-- Modal for travel planner -->
+        <div id="m1" class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Travel Planner Application</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                    </div>
+                    <div class="modal-body mb-0 p-0">
+                        <div class="container">
+                            <img src="Assets\Pictures\project01-list.png" style="width: 100%;">
+                            <p class="modal-p">In this group project, we built a web application from scratch by integrating data received from multiple server-side API requests. Working as a team, we have learned agile development methodologies and implement feature and
+                                bug fixes using git branch worklflow and pull requests.</p>
+                            <p class="modal-p">This is a multifunctional application that will help you organize your trip. This application will help you search flight and exchange the latest currency rates.</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary"><a href="https://phamthomas12.github.io/Project-1/" target="_blank">Live Demo</a></button>
+                        <button type="button" class="btn btn-primary"><a href=" https://github.com/phamthomas12/Project-1.git" target="_blank">GitHub Link</a></button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-        <button class="row button mx-auto mb-5">
-            <a href="#">Know more</a>
-        </button>
+        <!-- Modal for work day scheduler-->
+        <div id="m3" class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Work day Scheduler</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                    </div>
+                    <div class="modal-body mb-0 p-0">
+                        <div class="container">
+                            <img src="Assets\Pictures\scheduler-main.PNG" style="width: 100%;">
+                            <p class="modal-p">This is a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.</p>
+                            <p class="modal-p">Moment.js library has been used to work with date and time.</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary"><a href="https://wendyvo.github.io/work-day-schedule/" target="_blank">Live Demo</a></button>
+                        <button type="button" class="btn btn-primary"><a href="https://github.com/wendyVo/work-day-schedule.git" target="_blank">GitHub Link</a></button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
+
+
 
 
     <!-- Contact me page -->
@@ -135,7 +162,7 @@
             <hr class="w-50 mx-auto pb-5">
         </div>
 
-        <form id="contact-form" method="post" action="contact-page.php" role="form">
+        <form id="contact-form" method="post" action="mailto:uyen199247@gmail.com" role="form">
 
             <div class="messages"></div>
 
