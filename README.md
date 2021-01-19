@@ -17,21 +17,21 @@ In the contact section, there will be a form for the user to fill out and send t
 
 ### About Me
 
-![about-me](.Assets/screenshots/about-me.PNG)
+![about-me](Assets/screenshots/about-me.PNG)
 
 ### Portfolio
 
-![portfolio](.Assets/screenshots/portfolio-hover.png)
+![portfolio](Assets/screenshots/portfolio-hover.png)
 
 ### Portfolio Modal will pop up when button clicked
 
-![portfolio-modal](.Assets/screenshots/modal.PNG)
+![portfolio-modal](Assets/screenshots/modal.PNG)
 
 ### Contact Page
 
-![contact](.Assets/screenshots/contact.PNG)
+![contact](Assets/screenshots/contact.PNG)
 
-![contact-icons](.Assets/screenshots/icon-social.png)
+![contact-icons](Assets/screenshots/icon-social.png)
 
 # Links to the working application and GitHub repo:
 
